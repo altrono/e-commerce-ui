@@ -1,4 +1,5 @@
 import 'package:e_commerce_app_ui/helper_methods/helper_methods.dart';
+import 'package:e_commerce_app_ui/screens/home_screen.dart';
 import 'package:e_commerce_app_ui/utils/colors.dart';
 import 'package:e_commerce_app_ui/utils/utils.dart';
 import 'package:e_commerce_app_ui/widgets/image_list_view.dart';
@@ -87,7 +88,30 @@ class _IntroScreenState extends State<IntroScreen> {
                 ],
               ),
             ),
-        )
+        ),
+
+        //  bottom buttom
+        Positioned(
+            bottom: 30,
+            left: 20,
+            right: 20,
+            child: SizedBox(
+              height: 60,
+              child: ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: kBackgroundColor,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(30.0)
+                  )
+                ),
+                onPressed: () => Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => HomeScreen())),
+                child: Text('Sign Up with Email'),
+
+              ),
+            ),
+        ),
 
         ],
       ),
