@@ -1,5 +1,7 @@
 import 'package:e_commerce_app_ui/data/product.dart';
 
+import 'category.dart';
+
 final products = [
   Product(
     islike: false,
@@ -43,4 +45,37 @@ final products = [
       productName: 'ZARA',
     imageUrl: 'https://images.unsplash.com/photo-1617551307353-1185d5efe9e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1911&q=80'
   ),
+];
+
+final categories = [
+      Category(
+        categoryName: 'T-Shirt',
+          productCount: '123',
+          thumbnailImage: 'https://images.unsplash.com/photo-1529139574466-a303027c1d8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
+      ),
+      Category(
+        categoryName: 'SHOES',
+        productCount: '103',
+          thumbnailImage: 'https://images.unsplash.com/photo-1529139574466-a303027c1d8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
+      ),
+      Category(
+        categoryName: 'HODDIE',
+        productCount: '230',
+          thumbnailImage: 'https://images.unsplash.com/photo-1529139574466-a303027c1d8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
+      ),
+      Category(
+        categoryName: 'CAP',
+        productCount: '123',
+          thumbnailImage: 'https://images.unsplash.com/photo-1529139574466-a303027c1d8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
+      ),
+      Category(
+        categoryName: 'Watch',
+        productCount: '123',
+          thumbnailImage: 'https://images.unsplash.com/photo-1529139574466-a303027c1d8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
+      ),
+      Category(
+        categoryName: 'Bags',
+        productCount: '123',
+          thumbnailImage: 'https://images.unsplash.com/photo-1529139574466-a303027c1d8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
+      ),
 ];
